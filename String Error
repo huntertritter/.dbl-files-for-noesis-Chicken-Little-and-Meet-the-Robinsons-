@@ -1,0 +1,6 @@
+subObject: Traceback (most recent call last):
+  File "D:\noesisv4395\plugins\python\fmt_DBL.py", line 32, in LoadModel
+    readObject(bs)
+  File "D:\noesisv4395\plugins\python\fmt_DBL.py", line 137, in readObject
+    print("subObject:",name, info, bs.getOffset())
+TypeError: must be str without null bytes, not str
